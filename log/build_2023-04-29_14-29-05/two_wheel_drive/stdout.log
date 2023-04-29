@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing two_wheel_drive.egg-info/PKG-INFO
+writing dependency_links to two_wheel_drive.egg-info/dependency_links.txt
+writing entry points to two_wheel_drive.egg-info/entry_points.txt
+writing requirements to two_wheel_drive.egg-info/requires.txt
+writing top-level names to two_wheel_drive.egg-info/top_level.txt
+reading manifest file 'two_wheel_drive.egg-info/SOURCES.txt'
+writing manifest file 'two_wheel_drive.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two-wheel-drive.egg-link (link to .)
+Installing encoder_counter = two_wheel_drive.encoder_counter:maintalker script to /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/two_wheel_drive
+Installing encoder_reader script to /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/two_wheel_drive
+Installing listener script to /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/two_wheel_drive
+
+Installed /home/benjamin/two_wheel_drive/build/two_wheel_drive
+running install_data

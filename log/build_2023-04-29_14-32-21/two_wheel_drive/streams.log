@@ -1,0 +1,20 @@
+[0.634s] Invoking command in '/home/benjamin/two_wheel_drive/build/two_wheel_drive': PYTHONPATH=/home/benjamin/two_wheel_drive/build/two_wheel_drive/prefix_override:/home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/benjamin/two_wheel_drive/build/two_wheel_drive/build --no-deps install_data
+[0.891s] running develop
+[1.065s] running egg_info
+[1.065s] writing two_wheel_drive.egg-info/PKG-INFO
+[1.065s] writing dependency_links to two_wheel_drive.egg-info/dependency_links.txt
+[1.065s] writing entry points to two_wheel_drive.egg-info/entry_points.txt
+[1.065s] writing requirements to two_wheel_drive.egg-info/requires.txt
+[1.065s] writing top-level names to two_wheel_drive.egg-info/top_level.txt
+[1.067s] reading manifest file 'two_wheel_drive.egg-info/SOURCES.txt'
+[1.068s] writing manifest file 'two_wheel_drive.egg-info/SOURCES.txt'
+[1.069s] running build_ext
+[1.069s] Creating /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two-wheel-drive.egg-link (link to .)
+[1.070s] Installing encoder_counter script to /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/two_wheel_drive
+[1.070s] Installing encoder_reader script to /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/two_wheel_drive
+[1.070s] Installing listener script to /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/two_wheel_drive
+[1.070s] Installing talker script to /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/two_wheel_drive
+[1.070s] 
+[1.070s] Installed /home/benjamin/two_wheel_drive/build/two_wheel_drive
+[1.071s] running install_data
+[1.097s] Invoked command in '/home/benjamin/two_wheel_drive/build/two_wheel_drive' returned '0': PYTHONPATH=/home/benjamin/two_wheel_drive/build/two_wheel_drive/prefix_override:/home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/benjamin/two_wheel_drive/build/two_wheel_drive/build --no-deps install_data

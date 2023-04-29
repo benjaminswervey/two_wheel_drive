@@ -1,0 +1,6 @@
+[console_scripts]
+encoder_counter = two_wheel_drive.encoder_counter:main
+encoder_reader = two_wheel_drive.encoder_reader:main
+listener = two_wheel_drive.subscriber_member_function:main
+talker = two_wheel_drive.publisher_member_function:main
+

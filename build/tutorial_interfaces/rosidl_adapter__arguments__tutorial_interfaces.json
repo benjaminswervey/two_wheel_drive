@@ -1,0 +1,6 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/benjamin/two_wheel_drive/src/tutorial_interfaces:msg/Num.msg"
+  ]
+}

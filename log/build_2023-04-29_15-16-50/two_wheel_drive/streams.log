@@ -1,0 +1,41 @@
+[0.671s] Invoking command in '/home/benjamin/two_wheel_drive/build/two_wheel_drive': PYTHONPATH=/home/benjamin/two_wheel_drive/build/two_wheel_drive/prefix_override:/home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/benjamin/two_wheel_drive/build/two_wheel_drive/build
+[0.934s] running develop
+[1.109s] Removing /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two-wheel-drive.egg-link (link to .)
+[1.134s] Invoked command in '/home/benjamin/two_wheel_drive/build/two_wheel_drive' returned '0': PYTHONPATH=/home/benjamin/two_wheel_drive/build/two_wheel_drive/prefix_override:/home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/benjamin/two_wheel_drive/build/two_wheel_drive/build
+[1.134s] Invoking command in '/home/benjamin/two_wheel_drive/src/two_wheel_drive': PYTHONPATH=/home/benjamin/two_wheel_drive/build/two_wheel_drive/prefix_override:/home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/two_wheel_drive build --build-base /home/benjamin/two_wheel_drive/build/two_wheel_drive/build install --record /home/benjamin/two_wheel_drive/build/two_wheel_drive/install.log --single-version-externally-managed
+[1.376s] running egg_info
+[1.376s] writing ../../build/two_wheel_drive/two_wheel_drive.egg-info/PKG-INFO
+[1.376s] writing dependency_links to ../../build/two_wheel_drive/two_wheel_drive.egg-info/dependency_links.txt
+[1.376s] writing entry points to ../../build/two_wheel_drive/two_wheel_drive.egg-info/entry_points.txt
+[1.376s] writing requirements to ../../build/two_wheel_drive/two_wheel_drive.egg-info/requires.txt
+[1.377s] writing top-level names to ../../build/two_wheel_drive/two_wheel_drive.egg-info/top_level.txt
+[1.378s] reading manifest file '../../build/two_wheel_drive/two_wheel_drive.egg-info/SOURCES.txt'
+[1.379s] writing manifest file '../../build/two_wheel_drive/two_wheel_drive.egg-info/SOURCES.txt'
+[1.379s] running build
+[1.379s] running build_py
+[1.379s] copying two_wheel_drive/publisher_member_function.py -> /home/benjamin/two_wheel_drive/build/two_wheel_drive/build/lib/two_wheel_drive
+[1.379s] copying two_wheel_drive/encoder_counter.py -> /home/benjamin/two_wheel_drive/build/two_wheel_drive/build/lib/two_wheel_drive
+[1.379s] running install
+[1.379s] running install_lib
+[1.380s] creating /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive
+[1.380s] copying /home/benjamin/two_wheel_drive/build/two_wheel_drive/build/lib/two_wheel_drive/publisher_member_function.py -> /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive
+[1.380s] copying /home/benjamin/two_wheel_drive/build/two_wheel_drive/build/lib/two_wheel_drive/encoder_reader.py -> /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive
+[1.380s] copying /home/benjamin/two_wheel_drive/build/two_wheel_drive/build/lib/two_wheel_drive/encoder_counter.py -> /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive
+[1.381s] copying /home/benjamin/two_wheel_drive/build/two_wheel_drive/build/lib/two_wheel_drive/subscriber_member_function.py -> /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive
+[1.381s] copying /home/benjamin/two_wheel_drive/build/two_wheel_drive/build/lib/two_wheel_drive/__init__.py -> /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive
+[1.381s] byte-compiling /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[1.381s] byte-compiling /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive/encoder_reader.py to encoder_reader.cpython-310.pyc
+[1.382s] byte-compiling /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive/encoder_counter.py to encoder_counter.cpython-310.pyc
+[1.383s] byte-compiling /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[1.383s] byte-compiling /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive/__init__.py to __init__.cpython-310.pyc
+[1.384s] running install_data
+[1.384s] copying package.xml -> /home/benjamin/two_wheel_drive/install/two_wheel_drive/share/two_wheel_drive
+[1.384s] running install_egg_info
+[1.386s] Copying ../../build/two_wheel_drive/two_wheel_drive.egg-info to /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive-0.0.0-py3.10.egg-info
+[1.387s] running install_scripts
+[1.404s] Installing encoder_counter script to /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/two_wheel_drive
+[1.404s] Installing encoder_reader script to /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/two_wheel_drive
+[1.404s] Installing listener script to /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/two_wheel_drive
+[1.404s] Installing talker script to /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/two_wheel_drive
+[1.404s] writing list of installed files to '/home/benjamin/two_wheel_drive/build/two_wheel_drive/install.log'
+[1.425s] Invoked command in '/home/benjamin/two_wheel_drive/src/two_wheel_drive' returned '0': PYTHONPATH=/home/benjamin/two_wheel_drive/build/two_wheel_drive/prefix_override:/home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/two_wheel_drive build --build-base /home/benjamin/two_wheel_drive/build/two_wheel_drive/build install --record /home/benjamin/two_wheel_drive/build/two_wheel_drive/install.log --single-version-externally-managed

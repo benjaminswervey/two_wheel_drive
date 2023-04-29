@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/two_wheel_drive/two_wheel_drive.egg-info/PKG-INFO
+writing dependency_links to ../../build/two_wheel_drive/two_wheel_drive.egg-info/dependency_links.txt
+writing entry points to ../../build/two_wheel_drive/two_wheel_drive.egg-info/entry_points.txt
+writing requirements to ../../build/two_wheel_drive/two_wheel_drive.egg-info/requires.txt
+writing top-level names to ../../build/two_wheel_drive/two_wheel_drive.egg-info/top_level.txt
+reading manifest file '../../build/two_wheel_drive/two_wheel_drive.egg-info/SOURCES.txt'
+writing manifest file '../../build/two_wheel_drive/two_wheel_drive.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/benjamin/two_wheel_drive/install/two_wheel_drive/share/two_wheel_drive
+running install_egg_info
+removing '/home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/two_wheel_drive/two_wheel_drive.egg-info to /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive-0.0.0-py3.10.egg-info
+running install_scripts
+Installing encoder_counter script to /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/two_wheel_drive
+Installing encoder_reader script to /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/two_wheel_drive
+writing list of installed files to '/home/benjamin/two_wheel_drive/build/two_wheel_drive/install.log'

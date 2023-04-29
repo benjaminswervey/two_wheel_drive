@@ -1,0 +1,33 @@
+[0.608s] Invoking command in '/home/benjamin/two_wheel_drive/src/two_wheel_drive': PYTHONPATH=/home/benjamin/two_wheel_drive/build/two_wheel_drive/prefix_override:/home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/two_wheel_drive build --build-base /home/benjamin/two_wheel_drive/build/two_wheel_drive/build install --record /home/benjamin/two_wheel_drive/build/two_wheel_drive/install.log --single-version-externally-managed
+[0.846s] running egg_info
+[0.846s] creating ../../build/two_wheel_drive/two_wheel_drive.egg-info
+[0.847s] writing ../../build/two_wheel_drive/two_wheel_drive.egg-info/PKG-INFO
+[0.847s] writing dependency_links to ../../build/two_wheel_drive/two_wheel_drive.egg-info/dependency_links.txt
+[0.847s] writing entry points to ../../build/two_wheel_drive/two_wheel_drive.egg-info/entry_points.txt
+[0.847s] writing requirements to ../../build/two_wheel_drive/two_wheel_drive.egg-info/requires.txt
+[0.847s] writing top-level names to ../../build/two_wheel_drive/two_wheel_drive.egg-info/top_level.txt
+[0.848s] writing manifest file '../../build/two_wheel_drive/two_wheel_drive.egg-info/SOURCES.txt'
+[0.849s] reading manifest file '../../build/two_wheel_drive/two_wheel_drive.egg-info/SOURCES.txt'
+[0.849s] writing manifest file '../../build/two_wheel_drive/two_wheel_drive.egg-info/SOURCES.txt'
+[0.850s] running build
+[0.850s] running build_py
+[0.850s] creating /home/benjamin/two_wheel_drive/build/two_wheel_drive/build
+[0.850s] creating /home/benjamin/two_wheel_drive/build/two_wheel_drive/build/lib
+[0.850s] creating /home/benjamin/two_wheel_drive/build/two_wheel_drive/build/lib/two_wheel_drive
+[0.850s] copying two_wheel_drive/__init__.py -> /home/benjamin/two_wheel_drive/build/two_wheel_drive/build/lib/two_wheel_drive
+[0.850s] running install
+[0.850s] running install_lib
+[0.851s] creating /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive
+[0.851s] copying /home/benjamin/two_wheel_drive/build/two_wheel_drive/build/lib/two_wheel_drive/__init__.py -> /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive
+[0.851s] byte-compiling /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive/__init__.py to __init__.cpython-310.pyc
+[0.851s] running install_data
+[0.852s] creating /home/benjamin/two_wheel_drive/install/two_wheel_drive/share/ament_index
+[0.852s] creating /home/benjamin/two_wheel_drive/install/two_wheel_drive/share/ament_index/resource_index
+[0.852s] creating /home/benjamin/two_wheel_drive/install/two_wheel_drive/share/ament_index/resource_index/packages
+[0.852s] copying resource/two_wheel_drive -> /home/benjamin/two_wheel_drive/install/two_wheel_drive/share/ament_index/resource_index/packages
+[0.852s] copying package.xml -> /home/benjamin/two_wheel_drive/install/two_wheel_drive/share/two_wheel_drive
+[0.852s] running install_egg_info
+[0.853s] Copying ../../build/two_wheel_drive/two_wheel_drive.egg-info to /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive-0.0.0-py3.10.egg-info
+[0.854s] running install_scripts
+[0.872s] writing list of installed files to '/home/benjamin/two_wheel_drive/build/two_wheel_drive/install.log'
+[0.893s] Invoked command in '/home/benjamin/two_wheel_drive/src/two_wheel_drive' returned '0': PYTHONPATH=/home/benjamin/two_wheel_drive/build/two_wheel_drive/prefix_override:/home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/two_wheel_drive build --build-base /home/benjamin/two_wheel_drive/build/two_wheel_drive/build install --record /home/benjamin/two_wheel_drive/build/two_wheel_drive/install.log --single-version-externally-managed

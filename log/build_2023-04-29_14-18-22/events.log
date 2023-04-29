@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.000097] (two_wheel_drive) JobQueued: {'identifier': 'two_wheel_drive', 'dependencies': OrderedDict()}
+[0.000122] (two_wheel_drive) JobStarted: {'identifier': 'two_wheel_drive'}
+[0.099321] (-) TimerEvent: {}
+[0.199565] (-) TimerEvent: {}
+[0.299797] (-) TimerEvent: {}
+[0.400000] (-) TimerEvent: {}
+[0.500231] (-) TimerEvent: {}
+[0.600478] (-) TimerEvent: {}
+[0.607544] (two_wheel_drive) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/two_wheel_drive', 'build', '--build-base', '/home/benjamin/two_wheel_drive/build/two_wheel_drive/build', 'install', '--record', '/home/benjamin/two_wheel_drive/build/two_wheel_drive/install.log', '--single-version-externally-managed'], 'cwd': '/home/benjamin/two_wheel_drive/src/two_wheel_drive', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'benjamin', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/benjamin', 'OLDPWD': '/home/benjamin', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '22244', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'benjamin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'benjamin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/benjamin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/benjamin-G3-3579:@/tmp/.ICE-unix/1517,unix/benjamin-G3-3579:/tmp/.ICE-unix/1517', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4b0c30b9_6ebb_4a8c_bebb_68121ef814ef', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6QWV31', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.474', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/benjamin/two_wheel_drive/build/two_wheel_drive', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/benjamin/two_wheel_drive/build/two_wheel_drive/prefix_override:/home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.700598] (-) TimerEvent: {}
+[0.800843] (-) TimerEvent: {}
+[0.845722] (two_wheel_drive) StdoutLine: {'line': b'running egg_info\n'}
+[0.846256] (two_wheel_drive) StdoutLine: {'line': b'creating ../../build/two_wheel_drive/two_wheel_drive.egg-info\n'}
+[0.846570] (two_wheel_drive) StdoutLine: {'line': b'writing ../../build/two_wheel_drive/two_wheel_drive.egg-info/PKG-INFO\n'}
+[0.846953] (two_wheel_drive) StdoutLine: {'line': b'writing dependency_links to ../../build/two_wheel_drive/two_wheel_drive.egg-info/dependency_links.txt\n'}
+[0.847095] (two_wheel_drive) StdoutLine: {'line': b'writing entry points to ../../build/two_wheel_drive/two_wheel_drive.egg-info/entry_points.txt\n'}
+[0.847220] (two_wheel_drive) StdoutLine: {'line': b'writing requirements to ../../build/two_wheel_drive/two_wheel_drive.egg-info/requires.txt\n'}
+[0.847369] (two_wheel_drive) StdoutLine: {'line': b'writing top-level names to ../../build/two_wheel_drive/two_wheel_drive.egg-info/top_level.txt\n'}
+[0.847577] (two_wheel_drive) StdoutLine: {'line': b"writing manifest file '../../build/two_wheel_drive/two_wheel_drive.egg-info/SOURCES.txt'\n"}
+[0.849003] (two_wheel_drive) StdoutLine: {'line': b"reading manifest file '../../build/two_wheel_drive/two_wheel_drive.egg-info/SOURCES.txt'\n"}
+[0.849582] (two_wheel_drive) StdoutLine: {'line': b"writing manifest file '../../build/two_wheel_drive/two_wheel_drive.egg-info/SOURCES.txt'\n"}
+[0.849685] (two_wheel_drive) StdoutLine: {'line': b'running build\n'}
+[0.849880] (two_wheel_drive) StdoutLine: {'line': b'running build_py\n'}
+[0.850036] (two_wheel_drive) StdoutLine: {'line': b'creating /home/benjamin/two_wheel_drive/build/two_wheel_drive/build\n'}
+[0.850116] (two_wheel_drive) StdoutLine: {'line': b'creating /home/benjamin/two_wheel_drive/build/two_wheel_drive/build/lib\n'}
+[0.850174] (two_wheel_drive) StdoutLine: {'line': b'creating /home/benjamin/two_wheel_drive/build/two_wheel_drive/build/lib/two_wheel_drive\n'}
+[0.850228] (two_wheel_drive) StdoutLine: {'line': b'copying two_wheel_drive/__init__.py -> /home/benjamin/two_wheel_drive/build/two_wheel_drive/build/lib/two_wheel_drive\n'}
+[0.850300] (two_wheel_drive) StdoutLine: {'line': b'running install\n'}
+[0.850357] (two_wheel_drive) StdoutLine: {'line': b'running install_lib\n'}
+[0.850902] (two_wheel_drive) StdoutLine: {'line': b'creating /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive\n'}
+[0.850975] (two_wheel_drive) StdoutLine: {'line': b'copying /home/benjamin/two_wheel_drive/build/two_wheel_drive/build/lib/two_wheel_drive/__init__.py -> /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive\n'}
+[0.851341] (two_wheel_drive) StdoutLine: {'line': b'byte-compiling /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive/__init__.py to __init__.cpython-310.pyc\n'}
+[0.851526] (two_wheel_drive) StdoutLine: {'line': b'running install_data\n'}
+[0.851987] (two_wheel_drive) StdoutLine: {'line': b'creating /home/benjamin/two_wheel_drive/install/two_wheel_drive/share/ament_index\n'}
+[0.852075] (two_wheel_drive) StdoutLine: {'line': b'creating /home/benjamin/two_wheel_drive/install/two_wheel_drive/share/ament_index/resource_index\n'}
+[0.852162] (two_wheel_drive) StdoutLine: {'line': b'creating /home/benjamin/two_wheel_drive/install/two_wheel_drive/share/ament_index/resource_index/packages\n'}
+[0.852311] (two_wheel_drive) StdoutLine: {'line': b'copying resource/two_wheel_drive -> /home/benjamin/two_wheel_drive/install/two_wheel_drive/share/ament_index/resource_index/packages\n'}
+[0.852378] (two_wheel_drive) StdoutLine: {'line': b'copying package.xml -> /home/benjamin/two_wheel_drive/install/two_wheel_drive/share/two_wheel_drive\n'}
+[0.852434] (two_wheel_drive) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.853534] (two_wheel_drive) StdoutLine: {'line': b'Copying ../../build/two_wheel_drive/two_wheel_drive.egg-info to /home/benjamin/two_wheel_drive/install/two_wheel_drive/lib/python3.10/site-packages/two_wheel_drive-0.0.0-py3.10.egg-info\n'}
+[0.854205] (two_wheel_drive) StdoutLine: {'line': b'running install_scripts\n'}
+[0.871608] (two_wheel_drive) StdoutLine: {'line': b"writing list of installed files to '/home/benjamin/two_wheel_drive/build/two_wheel_drive/install.log'\n"}
+[0.893027] (two_wheel_drive) CommandEnded: {'returncode': 0}
+[0.901897] (-) TimerEvent: {}
+[0.904980] (two_wheel_drive) JobEnded: {'identifier': 'two_wheel_drive', 'rc': 0}
+[0.905561] (-) EventReactorShutdown: {}
